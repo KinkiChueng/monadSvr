@@ -1,0 +1,161 @@
+2017-09-05 11:00:59  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@10279954: startup date [Tue Sep 05 11:00:59 CST 2017]; root of context hierarchy
+  2017-09-05 11:00:59  [ pool-2-thread-1:20 ] - [ INFO ]  HV000001: Hibernate Validator 5.2.2.Final
+  2017-09-05 11:01:00  [ main:281 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  2017-09-05 11:01:00  [ main:358 ] - [ INFO ]  Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2995c4ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-09-05 11:01:00  [ main:607 ] - [ INFO ]  No profiles are active
+  2017-09-05 11:01:00  [ main:629 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fc27073: startup date [Tue Sep 05 11:01:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@10279954
+  2017-09-05 11:01:02  [ main:2299 ] - [ INFO ]  Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+  2017-09-05 11:01:02  [ main:2860 ] - [ INFO ]  BeanFactory id=f53d0474-b1e3-32d7-b802-512aa4215fec
+  2017-09-05 11:01:02  [ main:2907 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  2017-09-05 11:01:03  [ main:3083 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75bc5d90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-09-05 11:01:03  [ main:3114 ] - [ INFO ]  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2995c4ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-09-05 11:01:03  [ main:3121 ] - [ INFO ]  Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$5c73c023] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-09-05 11:01:03  [ main:3371 ] - [ INFO ]  Tomcat initialized with port(s): 8099 (http)
+  2017-09-05 11:01:03  [ main:3381 ] - [ INFO ]  Starting service Tomcat
+  2017-09-05 11:01:03  [ main:3382 ] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.0.28
+  2017-09-05 11:01:03  [ localhost-startStop-1:3476 ] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+  2017-09-05 11:01:03  [ localhost-startStop-1:3477 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2848 ms
+  2017-09-05 11:01:03  [ localhost-startStop-1:3877 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3882 ] - [ INFO ]  Mapping filter: 'metricFilter' to: [/*]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3882 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3882 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3882 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3883 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3883 ] - [ INFO ]  Mapping filter: 'webRequestLoggingFilter' to: [/*]
+  2017-09-05 11:01:03  [ localhost-startStop-1:3883 ] - [ INFO ]  Mapping filter: 'applicationContextIdFilter' to: [/*]
+  2017-09-05 11:01:04  [ main:4865 ] - [ INFO ]  Building JPA container EntityManagerFactory for persistence unit 'default'
+  2017-09-05 11:01:04  [ main:4870 ] - [ INFO ]  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2017-09-05 11:01:04  [ main:4966 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+  2017-09-05 11:01:04  [ main:4968 ] - [ INFO ]  HHH000206: hibernate.properties not found
+  2017-09-05 11:01:04  [ main:4969 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+  2017-09-05 11:01:05  [ main:5102 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+  2017-09-05 11:01:05  [ main:5185 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+  2017-09-05 11:01:05  [ main:5218 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+  2017-09-05 11:01:05  [ main:5644 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fc27073: startup date [Tue Sep 05 11:01:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@10279954
+  2017-09-05 11:01:05  [ main:5744 ] - [ INFO ]  Mapped "{[/elastic/delete/{deleteName}]}" onto public java.lang.String com.gafis.elastic.ElasticSearchService.DeleteElastic(java.lang.String)
+  2017-09-05 11:01:05  [ main:5745 ] - [ INFO ]  Mapped "{[/elastic/index/{indexName}]}" onto public java.lang.String com.gafis.elastic.ElasticSearchService.IndexElastic(java.lang.String)
+  2017-09-05 11:01:05  [ main:5748 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-09-05 11:01:05  [ main:5748 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+  2017-09-05 11:01:05  [ main:5791 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-09-05 11:01:05  [ main:5791 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-09-05 11:01:05  [ main:5873 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-09-05 11:01:06  [ main:6758 ] - [ INFO ]  Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+  2017-09-05 11:01:06  [ main:6758 ] - [ INFO ]  Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+  2017-09-05 11:01:06  [ main:6759 ] - [ INFO ]  Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6761 ] - [ INFO ]  Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+  2017-09-05 11:01:06  [ main:6763 ] - [ INFO ]  Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+  2017-09-05 11:01:06  [ main:6763 ] - [ INFO ]  Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6764 ] - [ INFO ]  Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+  2017-09-05 11:01:06  [ main:6764 ] - [ INFO ]  Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6765 ] - [ INFO ]  Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6766 ] - [ INFO ]  Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+  2017-09-05 11:01:06  [ main:6766 ] - [ INFO ]  Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6767 ] - [ INFO ]  Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6767 ] - [ INFO ]  Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6768 ] - [ INFO ]  Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6769 ] - [ INFO ]  Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6769 ] - [ INFO ]  Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+  2017-09-05 11:01:06  [ main:6770 ] - [ INFO ]  Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+  2017-09-05 11:01:06  [ main:6771 ] - [ INFO ]  Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+  2017-09-05 11:01:06  [ main:6771 ] - [ INFO ]  Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6772 ] - [ INFO ]  Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-09-05 11:01:06  [ main:6914 ] - [ INFO ]  SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fc27073: startup date [Tue Sep 05 11:01:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@10279954] and template loader path [classpath:/templates/]
+  2017-09-05 11:01:06  [ main:6915 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+  2017-09-05 11:01:06  [ main:7025 ] - [ WARN ]  No spring.application.name found, defaulting to 'application'
+  2017-09-05 11:01:06  [ main:7028 ] - [ WARN ]  No URLs will be polled as dynamic configuration sources.
+  2017-09-05 11:01:06  [ main:7028 ] - [ INFO ]  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-09-05 11:01:06  [ main:7033 ] - [ WARN ]  No URLs will be polled as dynamic configuration sources.
+  2017-09-05 11:01:06  [ main:7034 ] - [ INFO ]  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-09-05 11:01:07  [ main:7272 ] - [ INFO ]  Registering beans for JMX exposure on startup
+  2017-09-05 11:01:07  [ main:7283 ] - [ INFO ]  Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-09-05 11:01:07  [ main:7283 ] - [ INFO ]  Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-09-05 11:01:07  [ main:7285 ] - [ INFO ]  Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-09-05 11:01:07  [ main:7286 ] - [ INFO ]  Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+  2017-09-05 11:01:07  [ main:7286 ] - [ INFO ]  Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+  2017-09-05 11:01:07  [ main:7289 ] - [ INFO ]  Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-09-05 11:01:07  [ main:7304 ] - [ INFO ]  Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-09-05 11:01:07  [ main:7315 ] - [ INFO ]  Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+  2017-09-05 11:01:07  [ main:7330 ] - [ INFO ]  Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+  2017-09-05 11:01:07  [ main:7340 ] - [ INFO ]  Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=fc27073,type=ConfigurationPropertiesRebinder]
+  2017-09-05 11:01:07  [ main:7344 ] - [ INFO ]  Registering beans for JMX exposure on startup
+  2017-09-05 11:01:07  [ main:7647 ] - [ INFO ]  Starting beans in phase 0
+  2017-09-05 11:01:07  [ main:7650 ] - [ INFO ]  Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+  2017-09-05 11:01:07  [ main:7663 ] - [ INFO ]  Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+  2017-09-05 11:01:07  [ main:7669 ] - [ INFO ]  Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+  2017-09-05 11:01:07  [ main:7675 ] - [ INFO ]  Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+  2017-09-05 11:01:07  [ main:7682 ] - [ INFO ]  Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+  2017-09-05 11:01:07  [ main:7689 ] - [ INFO ]  Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+  2017-09-05 11:01:07  [ main:7696 ] - [ INFO ]  Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+  2017-09-05 11:01:07  [ main:7703 ] - [ INFO ]  Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+  2017-09-05 11:01:07  [ main:7711 ] - [ INFO ]  Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+  2017-09-05 11:01:07  [ main:7718 ] - [ INFO ]  Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+  2017-09-05 11:01:07  [ main:7725 ] - [ INFO ]  Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+  2017-09-05 11:01:07  [ main:7733 ] - [ INFO ]  Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+  2017-09-05 11:01:07  [ main:7793 ] - [ INFO ]  Initializing ProtocolHandler ["http-nio-8099"]
+  2017-09-05 11:01:07  [ main:7799 ] - [ INFO ]  Starting ProtocolHandler ["http-nio-8099"]
+  2017-09-05 11:01:07  [ main:7812 ] - [ INFO ]  Using a shared selector for servlet write/read
+  2017-09-05 11:01:07  [ main:7827 ] - [ INFO ]  Tomcat started on port(s): 8099 (http)
+  2017-09-05 11:01:07  [ main:7834 ] - [ INFO ]  Started SpringbootMyBatisApplication in 8.387 seconds (JVM running for 8.834)
+  2017-09-05 11:01:10  [ pool-4-thread-1:10045 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:01:10  [ http-nio-8099-exec-1:10650 ] - [ INFO ]  Initializing Spring FrameworkServlet 'dispatcherServlet'
+  2017-09-05 11:01:10  [ http-nio-8099-exec-1:10650 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+  2017-09-05 11:01:10  [ http-nio-8099-exec-1:10666 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+  2017-09-05 11:01:10  [ http-nio-8099-exec-1:10813 ] - [ INFO ]  [Sandman] loaded [], sites []
+  2017-09-05 11:01:11  [ http-nio-8099-exec-1:11243 ] - [ INFO ]   成功删除: q
+  2017-09-05 11:01:20  [ pool-4-thread-1:20041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:01:21  [ http-nio-8099-exec-2:21453 ] - [ INFO ]  [Leir] loaded [], sites []
+  2017-09-05 11:01:22  [ http-nio-8099-exec-3:22611 ] - [ INFO ]  [Meltdown] loaded [], sites []
+  2017-09-05 11:01:22  [ http-nio-8099-exec-3:22676 ] - [ INFO ]   成功删除: k
+  2017-09-05 11:01:30  [ pool-4-thread-1:30039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:01:31  [ http-nio-8099-exec-4:31487 ] - [ INFO ]  [Reject] loaded [], sites []
+  2017-09-05 11:01:32  [ http-nio-8099-exec-5:32754 ] - [ INFO ]  [Gavel] loaded [], sites []
+  2017-09-05 11:01:32  [ http-nio-8099-exec-5:32818 ] - [ INFO ]   成功删除: perso
+  2017-09-05 11:01:40  [ pool-4-thread-1:40040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:01:50  [ pool-4-thread-1:50040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:02:00  [ pool-4-thread-1:60042 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:02:10  [ pool-4-thread-1:70039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:02:12  [ http-nio-8099-exec-7:72524 ] - [ INFO ]  [Ameridroid] loaded [], sites []
+  2017-09-05 11:02:12  [ http-nio-8099-exec-7:72586 ] - [ INFO ]   成功删除: aa
+  2017-09-05 11:02:20  [ pool-4-thread-1:80041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:02:26  [ http-nio-8099-exec-9:86158 ] - [ INFO ]  [Googam] loaded [], sites []
+  2017-09-05 11:02:29  [ http-nio-8099-exec-10:89242 ] - [ INFO ]  [Sam Sawyer] loaded [], sites []
+  2017-09-05 11:02:29  [ http-nio-8099-exec-10:89290 ] - [ INFO ]   成功删除: afaaaa
+  2017-09-05 11:02:30  [ pool-4-thread-1:90039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:02:40  [ pool-4-thread-1:100041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:02:46  [ http-nio-8099-exec-1:107009 ] - [ INFO ]  [Sepulchre] loaded [], sites []
+  2017-09-05 11:02:47  [ http-nio-8099-exec-1:107087 ] - [ INFO ]   成功删除: index
+  2017-09-05 11:02:50  [ pool-4-thread-1:110042 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:03:00  [ pool-4-thread-1:120040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:03:06  [ http-nio-8099-exec-3:126605 ] - [ INFO ]  [Bushman] loaded [], sites []
+  2017-09-05 11:03:06  [ http-nio-8099-exec-3:126661 ] - [ INFO ]   成功删除: persott
+  2017-09-05 11:03:10  [ pool-4-thread-1:130042 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:03:20  [ pool-4-thread-1:140042 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:03:30  [ pool-4-thread-1:150040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:03:40  [ pool-4-thread-1:160039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:03:50  [ pool-4-thread-1:170039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:04:00  [ pool-4-thread-1:180041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:04:10  [ pool-4-thread-1:190041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:04:20  [ pool-4-thread-1:200039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:04:30  [ pool-4-thread-1:210041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:04:40  [ pool-4-thread-1:220039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:04:50  [ pool-4-thread-1:230041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:05:00  [ pool-4-thread-1:240040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:05:10  [ pool-4-thread-1:250040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:05:20  [ pool-4-thread-1:260041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:05:30  [ pool-4-thread-1:270040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:05:40  [ pool-4-thread-1:280041 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:05:50  [ pool-4-thread-1:290039 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:06:00  [ pool-4-thread-1:300040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:06:10  [ pool-4-thread-1:310037 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:06:20  [ pool-4-thread-1:320040 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:06:30  [ pool-4-thread-1:330038 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-09-05 11:06:30  [ Thread-4:330907 ] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fc27073: startup date [Tue Sep 05 11:01:00 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@10279954
+  2017-09-05 11:06:30  [ Thread-4:330910 ] - [ INFO ]  Stopping beans in phase 0
+  2017-09-05 11:06:30  [ Thread-4:330920 ] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+  2017-09-05 11:06:30  [ Thread-4:330920 ] - [ INFO ]  Unregistering JMX-exposed beans
+  2017-09-05 11:06:30  [ Thread-4:330923 ] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+  2017-09-05 11:06:30  [ Thread-4:330923 ] - [ INFO ]  Unregistering JMX-exposed beans
+  2017-09-05 11:06:30  [ Thread-4:330927 ] - [ INFO ]  Closing JPA EntityManagerFactory for persistence unit 'default'
+  

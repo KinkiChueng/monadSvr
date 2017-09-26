@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="gafis_person" cn_name="南京-人员信息" dynamic="true" share="true">
+    <index>
+        <analyzer>MMSeg</analyzer>
+    </index>
+    <search>
+        <analyzer>MMSeg</analyzer>
+    </search>
+    <sync>
+        <cron>0/5 * *  * * ? *</cron>
+        <interval>1</interval>
+        <jdbc>
+            <driver>oracle.jdbc.driver.OracleDriver</driver>
+            <url>jdbc:oracle:thin:@192.168.0.64:1521:oragafis</url>
+            <user>gafis_nj</user>
+            <password>gafis</password>
+            <batch_size>10</batch_size>
+            <sql>
+                select lower(p.personid) as personid,
+                    p.fingerrepeatno as fingerrepeatno,
+                    p.psis_no as psisNo,
+                    p.than_state_tt as thanStateTT,
+                    p.than_state_tl as thanStateTL,
+                    p.than_state_lt as thanStateLT,
+                    p.aliasname as aliasname,
+                    p.gatheruserid as gatheruserid,
+                    p.nation_code as nationCode,
+                    p.modifiedpsn as modifiedpsn,
+                    p.sex_code as sex_code,
+                    p.name as NAME,
+                    p.idcardno as idcardno,
+                    p.birthdayst as birthdayst,
+                    p.birthdayed as birthdayed,
+                    p.gather_category as gather_category,
+                    p.gather_type_id as gather_type_id,
+                    p.gatherdepartcode as gatherdepartcode,
+                    p.gatherdepartname as gatherdepartname,
+                    p.gather_date as gather_date,
+                    p.person_type as person_type,
+                    p.tone_code as tone_code,
+                    p.birth_code as birth_code,
+                    p.door as door,
+                    p.address as address,
+                    p.case_classes as case_classes,
+                    p.data_sources as data_sources,
+                    ly.name as data_sources_name,
+                    p.assist_level as assist_level,
+                    p.status as status,
+                    p.approval  as approval ,
+                    p.fingershow_status as fingershow_status,
+                   lower(p.gather_org_code) as gather_org_code,
+                    d.name as gather_org_name,
+                    p.inputtime as inputtime,
+                    p.inputpsn as inputpsn,
+                    p.modifiedtime as modifiedtime,
+                    p.deletag as deletag,
+                    p.seq as seq,
+                    f_get_phones_by_personid(p.personid) as phone_number,
+                    f_get_logicids_by_personid(p.personid) logicids,
+                    (select case count(*) when 0 then 0 else 1 end from gafis_gather_palm palm where palm.PERSON_ID = p.PERSONID) as has_palm
+                    from gafis_person p
+                    left join sys_depart d
+                    on p.gather_org_code = d.code
+                    left join code_ly ly
+                    on p.data_sources = ly.code;
+                select max(seq) from gafis_person
+            </sql>
+        </jdbc>
+    </sync>
+
+    <properties>
+        <property name="personid" cn_name="捺印卡号" primary_key="true" index_type="Text" />
+        <property name="fingerrepeatno" cn_name="重卡组编号" index_type="Text" />
+        <property name="psisNo" cn_name="警综编号" index_type="Text" />
+        <property name="thanStateTT" cn_name="TT比中状态(1:比中)" index_type="Text" />
+        <property name="thanStateTL" cn_name="TL比中状态(1:比中)" index_type="Text" />
+        <property name="thanStateLT" cn_name="LT比中状态(1:比中)" index_type="Text" />
+        <property name="aliasname" cn_name="别名" index_type="Text" />
+        <property name="gatheruserid" cn_name="采集人ID" index_type="Text" />
+        <property name="nationCode" cn_name="民族" index_type="Text" />
+        <property name="modifiedpsn" cn_name="修改人" index_type="Text" />
+        <property name="sex_code" cn_name="性别" index_type="Keyword" />
+        <property name="name" cn_name="姓名" index_type="Text" />
+        <property name="idcardno" cn_name="身份证号码" index_type="Keyword" />
+        <property name="birthdayst" cn_name="出生日期" column_type="Date" api_format="yyyy-MM-dd" query_type="Time" index_type="Text" />
+        <property name="birthdayed" cn_name="出生日期结束" column_type="Date" api_format="yyyy-MM-dd" query_type="Time" index_type="Text" />
+        <property name="gather_category" cn_name="采集类别" index_type="Keyword" />
+        <property name="gather_type_id" cn_name="采集类型" index_type="Keyword" />
+        <property name="person_type" cn_name="人员类别" index_type="Keyword" />
+        <property name="tone_code" cn_name=".口音行政区划" index_type="Keyword" />
+        <property name="birth_code" cn_name="出生地行政区划" index_type="Keyword" />
+        <property name="door" cn_name="户籍地行政区划" index_type="Keyword" />
+        <property name="address" cn_name="现住址行政区划" index_type="Keyword" />
+        <property name="case_classes" cn_name="案件类别" index_type="Keyword" />
+        <property name="assist_level" cn_name="协查级别" index_type="Keyword" />
+        <property name="status" cn_name="是否采集完成" index_type="Keyword" />
+        <property name="approval" cn_name="审核状态" index_type="Keyword" />     
+        <property name="gatherdepartcode" cn_name="采集单位编码" index_type="Keyword" />
+        <property name="gatherdepartname" cn_name="采集单位名称" index_type="Text" />
+        <property name="gather_date" cn_name="采集时间" column_type="Date" api_format="yyyy-MM-dd HH:mm:ss" query_type="Time" index_type="Text" />
+        <property name="gather_org_code" cn_name="创建单位编码" index_type="Keyword" />
+        <property name="gather_org_name" cn_name="创建单位名称" index_type="Text" />
+        <property name="inputpsn" cn_name="创建人id" index_type="Keyword" />
+        <property name="inputtime" cn_name="创建时间" column_type="Date" api_format="yyyy-MM-dd HH:mm:ss" query_type="Time" index_type="Text" />
+        <property name="data_sources" cn_name="数据来源编码" index_type="Keyword" />
+        <property name="data_sources_name" cn_name="数据来源" index_type="Keyword" />
+        <property name="fingershow_status" cn_name="是否显示" index_type="Keyword" />
+        <property name="deletag" cn_name="删除标志" index_type="Keyword" />
+
+        <property name="phone_number" cn_name="电话号码" index_type="Text" />
+        <property name="has_palm" cn_name="has_palm" index_type="Keyword" />
+		<property name="logicids" cn_name="所关联的逻辑库id" index_type="Text" />
+		
+        <property name="seq" cn_name="更新序列" modify_key="true" column_type="Long" index_type="Keyword" />
+    </properties>
+
+</resource>

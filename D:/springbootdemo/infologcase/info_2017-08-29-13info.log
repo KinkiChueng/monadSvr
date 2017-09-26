@@ -1,0 +1,219 @@
+2017-08-29 13:57:54  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1305e45c: startup date [Tue Aug 29 13:57:54 CST 2017]; root of context hierarchy
+  2017-08-29 13:57:54  [ pool-2-thread-1:161 ] - [ INFO ]  HV000001: Hibernate Validator 5.2.2.Final
+  2017-08-29 13:57:54  [ main:286 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  2017-08-29 13:57:54  [ main:351 ] - [ INFO ]  Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c752b412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-08-29 13:57:54  [ main:582 ] - [ INFO ]  No profiles are active
+  2017-08-29 13:57:54  [ main:605 ] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76f4a74b: startup date [Tue Aug 29 13:57:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1305e45c
+  2017-08-29 13:57:56  [ main:2049 ] - [ INFO ]  Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+  2017-08-29 13:57:56  [ main:2621 ] - [ INFO ]  BeanFactory id=a354c0ce-1d5d-3fb3-af94-0313b1b9137e
+  2017-08-29 13:57:56  [ main:2666 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  2017-08-29 13:57:57  [ main:2845 ] - [ INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13794cb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-08-29 13:57:57  [ main:2880 ] - [ INFO ]  Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c752b412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-08-29 13:57:57  [ main:2890 ] - [ INFO ]  Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$fa30af48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-08-29 13:57:57  [ main:3139 ] - [ INFO ]  Tomcat initialized with port(s): 8099 (http)
+  2017-08-29 13:57:57  [ main:3149 ] - [ INFO ]  Starting service Tomcat
+  2017-08-29 13:57:57  [ main:3150 ] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.0.28
+  2017-08-29 13:57:57  [ localhost-startStop-1:3256 ] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+  2017-08-29 13:57:57  [ localhost-startStop-1:3257 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2652 ms
+  2017-08-29 13:57:57  [ localhost-startStop-1:3671 ] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3675 ] - [ INFO ]  Mapping filter: 'metricFilter' to: [/*]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3676 ] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3676 ] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3676 ] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3676 ] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3677 ] - [ INFO ]  Mapping filter: 'webRequestLoggingFilter' to: [/*]
+  2017-08-29 13:57:57  [ localhost-startStop-1:3677 ] - [ INFO ]  Mapping filter: 'applicationContextIdFilter' to: [/*]
+  2017-08-29 13:57:58  [ main:4664 ] - [ INFO ]  Building JPA container EntityManagerFactory for persistence unit 'default'
+  2017-08-29 13:57:58  [ main:4669 ] - [ INFO ]  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2017-08-29 13:57:58  [ main:4765 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.11.Final}
+  2017-08-29 13:57:58  [ main:4768 ] - [ INFO ]  HHH000206: hibernate.properties not found
+  2017-08-29 13:57:58  [ main:4770 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+  2017-08-29 13:57:59  [ main:4886 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+  2017-08-29 13:57:59  [ main:4970 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+  2017-08-29 13:57:59  [ main:5004 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+  2017-08-29 13:57:59  [ main:5443 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76f4a74b: startup date [Tue Aug 29 13:57:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1305e45c
+  2017-08-29 13:57:59  [ main:5525 ] - [ INFO ]  Mapped "{[/elastic/delete]}" onto public void com.gafis.elastic.ElasticSearchService.DeleteElastic(java.lang.String)
+  2017-08-29 13:57:59  [ main:5525 ] - [ INFO ]  Mapped "{[/elastic/index]}" onto public void com.gafis.elastic.ElasticSearchService.IndexElastic(java.lang.String)
+  2017-08-29 13:57:59  [ main:5527 ] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-08-29 13:57:59  [ main:5528 ] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+  2017-08-29 13:57:59  [ main:5562 ] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-08-29 13:57:59  [ main:5562 ] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-08-29 13:57:59  [ main:5607 ] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-08-29 13:58:00  [ main:6483 ] - [ INFO ]  Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+  2017-08-29 13:58:00  [ main:6484 ] - [ INFO ]  Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6485 ] - [ INFO ]  Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6487 ] - [ INFO ]  Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+  2017-08-29 13:58:00  [ main:6488 ] - [ INFO ]  Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6489 ] - [ INFO ]  Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+  2017-08-29 13:58:00  [ main:6489 ] - [ INFO ]  Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+  2017-08-29 13:58:00  [ main:6490 ] - [ INFO ]  Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+  2017-08-29 13:58:00  [ main:6491 ] - [ INFO ]  Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+  2017-08-29 13:58:00  [ main:6491 ] - [ INFO ]  Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6492 ] - [ INFO ]  Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+  2017-08-29 13:58:00  [ main:6493 ] - [ INFO ]  Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6494 ] - [ INFO ]  Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6494 ] - [ INFO ]  Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6495 ] - [ INFO ]  Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6495 ] - [ INFO ]  Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6496 ] - [ INFO ]  Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+  2017-08-29 13:58:00  [ main:6497 ] - [ INFO ]  Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+  2017-08-29 13:58:00  [ main:6497 ] - [ INFO ]  Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6498 ] - [ INFO ]  Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+  2017-08-29 13:58:00  [ main:6706 ] - [ WARN ]  No spring.application.name found, defaulting to 'application'
+  2017-08-29 13:58:00  [ main:6709 ] - [ WARN ]  No URLs will be polled as dynamic configuration sources.
+  2017-08-29 13:58:00  [ main:6709 ] - [ INFO ]  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-08-29 13:58:00  [ main:6714 ] - [ WARN ]  No URLs will be polled as dynamic configuration sources.
+  2017-08-29 13:58:00  [ main:6714 ] - [ INFO ]  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-08-29 13:58:01  [ main:6946 ] - [ INFO ]  Registering beans for JMX exposure on startup
+  2017-08-29 13:58:01  [ main:6957 ] - [ INFO ]  Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-08-29 13:58:01  [ main:6957 ] - [ INFO ]  Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-08-29 13:58:01  [ main:6959 ] - [ INFO ]  Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-08-29 13:58:01  [ main:6960 ] - [ INFO ]  Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+  2017-08-29 13:58:01  [ main:6960 ] - [ INFO ]  Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+  2017-08-29 13:58:01  [ main:6964 ] - [ INFO ]  Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-08-29 13:58:01  [ main:6978 ] - [ INFO ]  Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-08-29 13:58:01  [ main:6990 ] - [ INFO ]  Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+  2017-08-29 13:58:01  [ main:7005 ] - [ INFO ]  Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+  2017-08-29 13:58:01  [ main:7015 ] - [ INFO ]  Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=76f4a74b,type=ConfigurationPropertiesRebinder]
+  2017-08-29 13:58:01  [ main:7019 ] - [ INFO ]  Registering beans for JMX exposure on startup
+  2017-08-29 13:58:01  [ main:7314 ] - [ INFO ]  Starting beans in phase 0
+  2017-08-29 13:58:01  [ main:7317 ] - [ INFO ]  Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+  2017-08-29 13:58:01  [ main:7330 ] - [ INFO ]  Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+  2017-08-29 13:58:01  [ main:7336 ] - [ INFO ]  Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+  2017-08-29 13:58:01  [ main:7343 ] - [ INFO ]  Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+  2017-08-29 13:58:01  [ main:7350 ] - [ INFO ]  Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+  2017-08-29 13:58:01  [ main:7357 ] - [ INFO ]  Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+  2017-08-29 13:58:01  [ main:7363 ] - [ INFO ]  Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+  2017-08-29 13:58:01  [ main:7371 ] - [ INFO ]  Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+  2017-08-29 13:58:01  [ main:7378 ] - [ INFO ]  Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+  2017-08-29 13:58:01  [ main:7385 ] - [ INFO ]  Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+  2017-08-29 13:58:01  [ main:7392 ] - [ INFO ]  Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+  2017-08-29 13:58:01  [ main:7399 ] - [ INFO ]  Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+  2017-08-29 13:58:01  [ main:7459 ] - [ INFO ]  Initializing ProtocolHandler ["http-nio-8099"]
+  2017-08-29 13:58:01  [ main:7466 ] - [ INFO ]  Starting ProtocolHandler ["http-nio-8099"]
+  2017-08-29 13:58:01  [ main:7479 ] - [ INFO ]  Using a shared selector for servlet write/read
+  2017-08-29 13:58:01  [ main:7493 ] - [ INFO ]  Tomcat started on port(s): 8099 (http)
+  2017-08-29 13:58:01  [ main:7500 ] - [ INFO ]  Started SpringbootMyBatisApplication in 7.968 seconds (JVM running for 8.358)
+  2017-08-29 13:58:10  [ pool-4-thread-1:15824 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:58:10  [ pool-4-thread-1:15959 ] - [ INFO ]  [Tailhook] loaded [], sites []
+  2017-08-29 13:58:10  [ pool-4-thread-1:16477 ] - [ ERROR ]  出现错误:错误信息:该索引不存在，请先建索引,堆栈信息:[com.gafis.elastic.ElasticSearchService.OperElastic(ElasticSearchService.java:68), com.gafis.sync.SyncTask.cronData(SyncTask.java:52), com.gafis.sync.SyncTask.scheduler(SyncTask.java:38), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:606), org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65), org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54), org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81), java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471), java.util.concurrent.FutureTask.run(FutureTask.java:262), java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178), java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615), java.lang.Thread.run(Thread.java:745)]
+  2017-08-29 13:58:11  [ http-nio-8099-exec-1:17436 ] - [ INFO ]  Initializing Spring FrameworkServlet 'dispatcherServlet'
+  2017-08-29 13:58:11  [ http-nio-8099-exec-1:17437 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization started
+  2017-08-29 13:58:11  [ http-nio-8099-exec-1:17451 ] - [ INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+  2017-08-29 13:58:11  [ http-nio-8099-exec-1:17527 ] - [ INFO ]  [Howard the Duck] loaded [], sites []
+  2017-08-29 13:58:20  [ pool-4-thread-1:25820 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:58:20  [ pool-4-thread-1:25855 ] - [ INFO ]  [Soulfire] loaded [], sites []
+  2017-08-29 13:58:20  [ pool-4-thread-1:25898 ] - [ INFO ]  44200452222242343323348 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25904 ] - [ INFO ]  44200462222242212822231 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25910 ] - [ INFO ]  44200462222242333222384 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25913 ] - [ INFO ]  44200462222242352923163 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25917 ] - [ INFO ]  44200462222242332422270 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25921 ] - [ INFO ]  44200472022242323322417 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25926 ] - [ INFO ]  44200472022242352923754 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25930 ] - [ INFO ]  44200472022242352924645 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25935 ] - [ INFO ]  44200472022242332522666 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25939 ] - [ INFO ]  44200472322242323422288 更新次数，response.version():1
+  2017-08-29 13:58:20  [ pool-4-thread-1:25978 ] - [ INFO ]  seq更新成功：1025479
+  2017-08-29 13:58:27  [ http-nio-8099-exec-2:33784 ] - [ INFO ]  [Baphomet] loaded [], sites []
+  2017-08-29 13:58:27  [ http-nio-8099-exec-2:33817 ] - [ INFO ]   该索引已存在： person1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35822 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:58:30  [ pool-4-thread-1:35851 ] - [ INFO ]  [Druig] loaded [], sites []
+  2017-08-29 13:58:30  [ pool-4-thread-1:35887 ] - [ INFO ]  44200472322242323422288 更新次数，response.version():2
+  2017-08-29 13:58:30  [ pool-4-thread-1:35893 ] - [ INFO ]  44200472322242343423738 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35899 ] - [ INFO ]  44200472422242342322309 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35903 ] - [ INFO ]  44200472322242352922069 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35908 ] - [ INFO ]  44200472422242352622312 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35912 ] - [ INFO ]  44200472422242352925887 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35915 ] - [ INFO ]  44200472722242333222387 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35919 ] - [ INFO ]  44200472422242352923237 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35923 ] - [ INFO ]  44200472722242333422785 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35927 ] - [ INFO ]  44200472722242333422299 更新次数，response.version():1
+  2017-08-29 13:58:30  [ pool-4-thread-1:35958 ] - [ INFO ]  seq更新成功：1025488
+  2017-08-29 13:58:40  [ pool-4-thread-1:45818 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:58:40  [ pool-4-thread-1:45846 ] - [ INFO ]  [Anais] loaded [], sites []
+  2017-08-29 13:58:40  [ pool-4-thread-1:45879 ] - [ INFO ]  44200472722242333422299 更新次数，response.version():2
+  2017-08-29 13:58:40  [ pool-4-thread-1:45884 ] - [ INFO ]  44200472722242343222213 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45888 ] - [ INFO ]  44200472722242343422396 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45894 ] - [ INFO ]  44200472722242352622430 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45899 ] - [ INFO ]  44200472722242352925274 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45903 ] - [ INFO ]  44200472722242352827256 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45907 ] - [ INFO ]  44200472722242362622304 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45911 ] - [ INFO ]  44200472822242323222323 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45914 ] - [ INFO ]  44200472822242323322023 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45917 ] - [ INFO ]  44200472822242332922240 更新次数，response.version():1
+  2017-08-29 13:58:40  [ pool-4-thread-1:45948 ] - [ INFO ]  seq更新成功：1025497
+  2017-08-29 13:58:50  [ pool-4-thread-1:55821 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:58:50  [ pool-4-thread-1:55849 ] - [ INFO ]  [Ricadonna] loaded [], sites []
+  2017-08-29 13:58:50  [ pool-4-thread-1:55881 ] - [ INFO ]  44200472822242332922240 更新次数，response.version():2
+  2017-08-29 13:58:50  [ pool-4-thread-1:55886 ] - [ INFO ]  44200472822242332322368 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55890 ] - [ INFO ]  44200472822242333422699 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55894 ] - [ INFO ]  44200472822242343322492 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55898 ] - [ INFO ]  44200472822242352622626 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55902 ] - [ INFO ]  44200472822242343322648 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55905 ] - [ INFO ]  44200472822242352822961 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55909 ] - [ INFO ]  44200472822242352924472 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55913 ] - [ INFO ]  44200472922242212922048 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55917 ] - [ INFO ]  44200472922242212922315 更新次数，response.version():1
+  2017-08-29 13:58:50  [ pool-4-thread-1:55945 ] - [ INFO ]  seq更新成功：1025506
+  2017-08-29 13:59:00  [ pool-4-thread-1:65822 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:59:00  [ pool-4-thread-1:65849 ] - [ INFO ]  [Link] loaded [], sites []
+  2017-08-29 13:59:00  [ pool-4-thread-1:65903 ] - [ INFO ]  44200472922242212922315 更新次数，response.version():2
+  2017-08-29 13:59:00  [ pool-4-thread-1:65908 ] - [ INFO ]  44200472922242212926340 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65912 ] - [ INFO ]  44200472922242212926750 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65915 ] - [ INFO ]  44200472922242212927400 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65918 ] - [ INFO ]  44200472922242343322054 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65922 ] - [ INFO ]  44200472922242343324783 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65925 ] - [ INFO ]  44200472922242343423051 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65929 ] - [ INFO ]  44200472922242343423149 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65935 ] - [ INFO ]  44200473322242323322484 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65938 ] - [ INFO ]  44200473322242323322903 更新次数，response.version():1
+  2017-08-29 13:59:00  [ pool-4-thread-1:65956 ] - [ INFO ]  seq更新成功：1025515
+  2017-08-29 13:59:10  [ pool-4-thread-1:75822 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:59:10  [ pool-4-thread-1:75847 ] - [ INFO ]  [Roulette] loaded [], sites []
+  2017-08-29 13:59:10  [ pool-4-thread-1:75877 ] - [ INFO ]  44200473322242323322903 更新次数，response.version():2
+  2017-08-29 13:59:10  [ pool-4-thread-1:75882 ] - [ INFO ]  44200473322242323322681 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75886 ] - [ INFO ]  44200473322242352622383 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75890 ] - [ INFO ]  44200473322242343222318 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75893 ] - [ INFO ]  44200473422242323422088 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75896 ] - [ INFO ]  44200473422242332522655 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75900 ] - [ INFO ]  44200473422242332522935 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75904 ] - [ INFO ]  44200473522242343322329 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75908 ] - [ INFO ]  44200473522242343422055 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75912 ] - [ INFO ]  44200473522242343423281 更新次数，response.version():1
+  2017-08-29 13:59:10  [ pool-4-thread-1:75948 ] - [ INFO ]  seq更新成功：1025524
+  2017-08-29 13:59:20  [ pool-4-thread-1:85822 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:59:20  [ pool-4-thread-1:85846 ] - [ INFO ]  [Abominable Snowman] loaded [], sites []
+  2017-08-29 13:59:20  [ pool-4-thread-1:85874 ] - [ INFO ]  44200473522242343423281 更新次数，response.version():2
+  2017-08-29 13:59:20  [ pool-4-thread-1:85878 ] - [ INFO ]  44200473622242343422299 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85883 ] - [ INFO ]  44200473522242352522696 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85886 ] - [ INFO ]  44200473722242352422575 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85890 ] - [ INFO ]  44200474122242332922478 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85893 ] - [ INFO ]  44200474122242323322950 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85896 ] - [ INFO ]  44200474122242352722235 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85900 ] - [ INFO ]  44200474122242352924201 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85902 ] - [ INFO ]  44200474122242362622297 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85905 ] - [ INFO ]  44200474222242323222073 更新次数，response.version():1
+  2017-08-29 13:59:20  [ pool-4-thread-1:85921 ] - [ INFO ]  seq更新成功：1025534
+  2017-08-29 13:59:30  [ pool-4-thread-1:95823 ] - [ INFO ]  同步完成情况-定时任务执行中......
+  2017-08-29 13:59:30  [ pool-4-thread-1:95847 ] - [ INFO ]  [Visimajoris] loaded [], sites []
+  2017-08-29 13:59:30  [ pool-4-thread-1:95874 ] - [ INFO ]  44200474222242323222073 更新次数，response.version():2
+  2017-08-29 13:59:30  [ pool-4-thread-1:95878 ] - [ INFO ]  44200474222242332022200 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95881 ] - [ INFO ]  44200474222242352122355 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95884 ] - [ INFO ]  44200474222242352622623 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95887 ] - [ INFO ]  44200474222242352827347 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95890 ] - [ INFO ]  44200474222242352722765 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95892 ] - [ INFO ]  44200474222242352122410 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95895 ] - [ INFO ]  44200474422242212924251 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95898 ] - [ INFO ]  44200474422242333422401 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95901 ] - [ INFO ]  44200474422242332422520 更新次数，response.version():1
+  2017-08-29 13:59:30  [ pool-4-thread-1:95922 ] - [ INFO ]  seq更新成功：1025543
+  2017-08-29 13:59:32  [ Thread-4:98087 ] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76f4a74b: startup date [Tue Aug 29 13:57:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1305e45c
+  2017-08-29 13:59:32  [ Thread-4:98089 ] - [ INFO ]  Stopping beans in phase 0
+  2017-08-29 13:59:32  [ Thread-4:98099 ] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+  2017-08-29 13:59:32  [ Thread-4:98099 ] - [ INFO ]  Unregistering JMX-exposed beans
+  2017-08-29 13:59:32  [ Thread-4:98102 ] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+  2017-08-29 13:59:32  [ Thread-4:98103 ] - [ INFO ]  Unregistering JMX-exposed beans
+  2017-08-29 13:59:32  [ Thread-4:98107 ] - [ INFO ]  Closing JPA EntityManagerFactory for persistence unit 'default'
+  

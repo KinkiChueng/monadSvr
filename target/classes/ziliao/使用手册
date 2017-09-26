@@ -1,0 +1,3 @@
+1，http://服务IP:8099/elastic/index/索引名
+2，同步任务自动创建索引
+3，删除索引：http://服务IP:8099/elastic/delete/索引名
